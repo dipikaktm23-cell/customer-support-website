@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Customer Support | Helpdesk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background: #0a3d62;
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #0a3d62;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service-box {
+      background: #f8f9fb;
+      padding: 18px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #e1e5ee;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+    }
+
+    .call {
+      background: #007bff;
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Online Customer Support Helpdesk</h1>
+  <p>24/7 Assistance | Trusted Support Services</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About Our Support</h2>
+    <p>
+      We provide professional online customer support services to help users
+      with account guidance, general inquiries, and technical assistance.
+      Our goal is to offer fast, reliable, and secure help.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">✔ General Customer Support</div>
+      <div class="service-box">✔ Online Assistance</div>
+      <div class="service-box">✔ Account Help Guidance</div>
+      <div class="service-box">✔ 24/7 Call & WhatsApp Support</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Contact Support Team</h2>
+    <p>
+      For immediate assistance, call or message our support team.
+    </p>
+
+    <div class="contact-buttons">
+      <a class="btn call" href="tel:+918102635385">
+        📞 Call Now: 8102635385
+      </a>
+
+      <a class="btn whatsapp" href="https://wa.me/918102635385" target="_blank">
+        💬 WhatsApp Support
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Online Support Helpdesk. All rights reserved.
+</footer>
+
+</body>
+</html>
